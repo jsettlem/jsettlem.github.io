@@ -5,22 +5,22 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "Not Me"
+    "text": "Jacob Settlemyre"
   },
   "text": {
-    "more": "blah",
-    "intro": "test graph",
-    "title": "Testing"
+    "more": "A graph of important actos in Aum Shinrikyo and the 1995 Tokyo Subway Sarin Attacks. Nodes are colored based on their category. \n\nRed - Aum Members\nLight Blue - Organizations\nYellow - Incidents\nGreen - Innocents\nBlack - Train lines\n\nThey are sized by Clustering Coefficent, which tends to highlight individuals involved in important incidents\n",
+    "intro": "A graph of important actos in Aum Shinrikyo and the 1995 Tokyo Subway Sarin Attacks",
+    "title": "Aum Shinrikyo"
   },
   "legend": {
     "edgeLabel": "Connections",
-    "colorLabel": "Communities",
-    "nodeLabel": "People"
+    "colorLabel": "Category",
+    "nodeLabel": "Entities"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "color",
-    "hoverBehavior": "default"
+    "groupSelectorAttribute": "Category",
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
